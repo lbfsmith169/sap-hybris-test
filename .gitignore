@@ -1,0 +1,68 @@
+
+# Directories #
+build/
+bin/
+target/
+classes/
+libs/
+tmp/
+
+# Files # 
+*.class
+*.jar
+*.war
+*.ear
+*.db
+rebel.xml
+
+ 
+######################
+# OSX
+######################
+ 
+.DS_Store
+.svn
+ 
+# Thumbnails
+._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Eclipse
+######################
+ 
+*.pydevproject
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+######################
+# Idea
+######################
+.idea/
+*.iml
+
+######################
+# Gradle
+######################
+.gradle
+
+#################################################
+# Don't check in geckodriver as unique to each OS
+#################################################
+./src/main/resources/geckodriver*
