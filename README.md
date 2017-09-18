@@ -10,7 +10,7 @@ https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.
 
 Uncompress the download and you should end up with a file called geckodriver or geckodriver.exe. This needs to be copied to ./src/main/resources
 
-(If you are using Windows you will need to add a .exe to line 13 of HoverflyTest)
+(If you are using Windows you will need to add a .exe to line 15 of HoverflyTest)
 
 To execute test without Hoverfly please execute the command:
 
