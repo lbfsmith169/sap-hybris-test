@@ -4,7 +4,7 @@ import geb.Page
 import org.openqa.selenium.By
 
 /**
- * Created by i331123 (Luke) on 18/09/2017.
+ * Created by Luke on 18/09/2017.
  */
 class TestPage extends Page {
 

@@ -6,7 +6,7 @@ import test.TestPageAction;
 import java.nio.file.Paths;
 
 /**
- * Created by i331123 (Luke) on 18/09/2017.
+ * Created by Luke on 18/09/2017.
  */
 public class HoverflyTest {
 

@@ -5,11 +5,9 @@ import geb.Browser
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.remote.CapabilityType
 import org.openqa.selenium.remote.DesiredCapabilities
-import test.LogonPage
-import test.TestPage
 
 /**
- * Created by i331123 (Luke) on 18/09/2017.
+ * Created by Luke on 18/09/2017.
  */
 class TestPageAction {
 
