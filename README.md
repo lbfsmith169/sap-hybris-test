@@ -1,9 +1,9 @@
 PLEASE NOTE: Before attempting to run the test please install the relevant Firefox webdriver from one of the below URLs:
 
 Windows:  
-https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-win64.zip
+https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-win64.zip  
 Mac:  
-https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-macos.tar.gz
+https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-macos.tar.gz  
 Linux:  
 https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz OR  
 https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux32.tar.gz  
@@ -42,11 +42,11 @@ When the test works properly you will see the error `Sorry, we could not authent
 
 Eventually you should get a timeout from the Geb framework and an exception thrown like this:
 
-`HoverflyTest > testHoverfly FAILED
-     geb.waiting.WaitTimeoutException at HoverflyTest.java:33
-         Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33
-             Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33
-                 Caused by: org.codehaus.groovy.runtime.powerassert.PowerAssertionError at HoverflyTest.java:33`
+`HoverflyTest > testHoverfly FAILED  
+     geb.waiting.WaitTimeoutException at HoverflyTest.java:33  
+         Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33  
+             Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33  
+                 Caused by: org.codehaus.groovy.runtime.powerassert.PowerAssertionError at HoverflyTest.java:33`  
 
 as the Geb framework is not able to access the popUp due to SSL issues?
 
