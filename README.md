@@ -42,11 +42,11 @@ When the test works properly you will see the error `Sorry, we could not authent
 
 Eventually you should get a timeout from the Geb framework and an exception thrown like this:
 
-`HoverflyTest > testHoverfly FAILED  
-     geb.waiting.WaitTimeoutException at HoverflyTest.java:33  
-         Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33  
-             Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33  
-                 Caused by: org.codehaus.groovy.runtime.powerassert.PowerAssertionError at HoverflyTest.java:33`  
+`HoverflyTest > testHoverfly FAILED`  
+`     geb.waiting.WaitTimeoutException at HoverflyTest.java:33`  
+`         Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33`  
+`             Caused by: geb.waiting.WaitTimeoutException at HoverflyTest.java:33`  
+`                 Caused by: org.codehaus.groovy.runtime.powerassert.PowerAssertionError at HoverflyTest.java:33`  
 
 as the Geb framework is not able to access the popUp due to SSL issues?
 
