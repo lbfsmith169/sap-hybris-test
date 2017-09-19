@@ -1,16 +1,24 @@
 PLEASE NOTE: Before attempting to run the test please install the relevant Firefox webdriver from one of the below URLs:
 
-Windows:
+Windows:  
 https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-win64.zip
-Mac:
+Mac:  
 https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-macos.tar.gz
-Linux:
-https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz OR
-https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux32.tar.gz
+Linux:  
+https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz OR  
+https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux32.tar.gz  
 
 Uncompress the download and you should end up with a file called geckodriver or geckodriver.exe. This needs to be copied to ./src/main/resources
 
-(If you are using Windows you will need to add a .exe to line 15 of HoverflyTest)
+**If you are using Windows you will need to change line 15 of ./src/test/java/HoverflyTest.java**
+
+from:
+
+`System.setProperty("webdriver.gecko.driver", "./src/main/resources/geckodriver");`
+
+to:
+
+`System.setProperty("webdriver.gecko.driver", "./src/main/resources/geckodriver.exe");`
 
 To execute test without Hoverfly please execute the command:
 
